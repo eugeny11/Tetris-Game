@@ -1,6 +1,6 @@
-import { Tetris } from "/tetris.js";
-import { convertPositionToIndex } from "/utilities.js";
-import { PLAYFIELD_ROWS, PLAYFIELD_COLUMNS, SAD } from "/utilities.js";
+import { Tetris } from "./tetris.js";
+import { convertPositionToIndex } from "./utilities.js";
+import { PLAYFIELD_ROWS, PLAYFIELD_COLUMNS, SAD } from "./utilities.js";
 
 let hammer;
 let requestId;
@@ -216,3 +216,4 @@ function drawSad() {
     }
   }
 }
+
