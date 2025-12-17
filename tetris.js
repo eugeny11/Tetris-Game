@@ -5,7 +5,7 @@ import {
   TETROMINOES,
   getRandomElement,
   rotateMatrix,
-} from "/utilities.js";
+} from "./utilities.js";
 
 export class Tetris {
   constructor() {
@@ -174,3 +174,4 @@ export class Tetris {
     this.tetromino.row = tetrominoRow;
   }
 }
+
